@@ -1,0 +1,51 @@
+header{
+    display:inline;
+}
+div.radial{
+    height:150px;
+    width:200px;
+    color:#000;
+    background: -moz-radial-gradient(top left,black,yellow,red);
+    background: -webkit-radial-gradient(top left,black,yellow,red);
+    background:-ms-radial-gradient(top left,black,yellow,red);
+    text-align:center;
+    display:flex;
+}
+
+h3{
+    border-radius:0 0 20px 20px;
+    color:white;
+    background-color: skyblue;
+    text-align: center;
+}
+.one{
+    position:relative;
+    max-width: 800px;
+    margin:0 auto;
+}
+.top{
+    position:absolute;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+    color:white;
+    width:600px;
+    padding:20px;
+}
+p.one{
+   border-left-style:inset;
+   border-width: 10px;
+   border-color:green;
+}
+p.two{
+    border-radius:10px;
+    background-color:goldenrod;
+    color:white;
+    width:80px;
+    text-align:right;
+}
+p.one{
+    text-decoration: none;
+}
+p.two{
+    text-decoration: none;
+}
